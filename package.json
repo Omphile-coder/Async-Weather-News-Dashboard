@@ -4,7 +4,8 @@
   "description": "��#\u0000 \u0000A\u0000s\u0000y\u0000n\u0000c\u0000-\u0000W\u0000e\u0000a\u0000t\u0000h\u0000e\u0000r\u0000-\u0000N\u0000e\u0000w\u0000s\u0000-\u0000D\u0000a\u0000s\u0000h\u0000b\u0000o\u0000a\u0000r\u0000d\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec tsx src/server.ts"
+    "dev": "nodemon --exec tsx src/server.ts",
+    "callback": "ts-node src/callbackVersion.ts"
   },
   "repository": {
     "type": "git",
@@ -19,12 +20,11 @@
   },
   "homepage": "https://github.com/Omphile-coder/Async-Weather-News-Dashboard#readme",
   "dependencies": {
-    "@types/node": "^26.5.1",
     "ts-node": "^10.9.2",
-    "typescript": "^7.0.2"
+    "typescript": "^5.6.3"
   },
   "devDependencies": {
+    "@types/node": "^22.20.3",
     "nodemon": "^3.0.1"
   }
-  
 }
