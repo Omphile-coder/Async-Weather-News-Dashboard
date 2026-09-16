@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon --exec tsx src/server.ts",
     "callback": "ts-node src/callbackVersion.ts",
-    "promise": "ts-node src/promiseVersion.ts"
+    "promise": "ts-node src/promiseVersion.ts",
+    "async": "ts-node src/asyncAwaitVersion.ts"
   },
   "repository": {
     "type": "git",
